@@ -1,0 +1,490 @@
+/* IMAGES */
+
+.megaphone {
+    height: 20px;
+    width: 20px;
+}
+
+#container-megaphone {
+    display: flex;
+    background-color: rgb(27, 40, 56);
+    height: 20px;
+    margin-right: 8px;
+    padding: 2px 8px 2px 8px;
+}
+
+
+#container-megaphone:hover {
+    opacity: 0.5;
+    color: white;
+}
+
+.container-enveloppe {
+    display: flex;
+    background-color: rgb(27, 40, 56);
+    height: 20px;
+    padding: 2px 8px 2px 8px;
+}
+
+
+.container-enveloppe:hover {
+    opacity: 0.5;
+    color: white;
+}
+
+.enveloppe {
+    height: 20px;
+    width: 20px;
+}
+
+.pp {
+    height: 24px;
+    width: 30px;
+    padding-right: 10px;
+}
+
+
+#container-pp > a {
+    display: flex;
+    align-items: center;
+    background-color:rgb(27, 40, 56) ; 
+    color: rgb(102, 192, 244);
+    font-size: 10px;
+    padding-right: 10px;
+}
+
+#container-pp {
+    height: 24px;
+}
+
+#container-pp:hover {
+    opacity: 0.5;
+    color : white;
+}
+
+/* MENU PRINCIPAL */
+nav {
+    width: 100%;
+    top: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: rgb(23, 26, 33);
+    height: var(--hauteur-menu);
+    
+}
+
+nav > ul {
+    display: flex;
+    text-align: center;
+    height: var(--hauteur-menu);
+}
+
+
+nav ul {
+    list-style-type: none;
+}
+.ul-1 {
+    margin: 10px 0 0 10px;
+    height: 30px;  
+}
+
+nav > ul > li {
+    display: flex;
+    position: relative;
+    height: 50%;
+    
+}
+
+nav > ul > li > a {
+    font-size: 10px;
+    color:rgb(199, 213, 224);
+}
+
+li a {
+    text-decoration: none;
+}
+
+nav > ul > li:hover > a{
+    color: white;
+}
+
+.menu-deroulant {
+    margin-right: 7px;
+    height: 20px;
+}
+
+/* SOUS MENU */
+
+.hr-1 {
+    width: 250px;
+    border-top: 0.1px solid rgb(199, 213, 224);
+    border-bottom: rgb(55, 55, 55);
+    border-left: rgb(55, 55, 55);
+    padding-bottom: 3px;
+    opacity: 0.2;
+}
+
+.first-link {
+    padding-top: 5px;
+}
+
+.sous-menu {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    position: absolute; 
+    width: 250px;
+    overflow: hidden;
+    max-height: 0;
+    top: 100%;
+    background-color: rgb(55, 55, 55);
+    left: 0;
+}
+
+.sous-menu > a {
+    font-size: 10px;
+    height: 50%;
+    padding-left: 5px;
+    display: flex;
+    color: rgb(199, 213, 224);
+    background-color: rgb(55, 55, 55);
+    padding-bottom: 5px;
+}
+
+.sous-menu > a:hover {
+    color: white;
+}
+
+@keyframes appartionsousmenu{
+    100% {
+        max-height: 50em;
+        border: 1px solid black;
+    box-shadow: 1px 1px 1px 1px solid rgba(0,0,0,0.3);
+    }
+}
+
+.menu-deroulant:hover > .sous-menu {
+    animation: appartionsousmenu 0s forwards;
+}
+
+/* sous menu 2 */
+
+.hr-2 {
+    width: 150px;
+    border-top: 0.1px solid rgb(199, 213, 224);
+    border-bottom: rgb(55, 55, 55);
+    border-left: rgb(55, 55, 55);
+    padding-bottom: 3px;
+    opacity: 0.2;
+}
+
+.sous-menu-2 {
+     display: flex;
+     flex-flow: column wrap;
+     align-items: flex-start;
+     position: absolute; 
+     width: 150px;
+     overflow: hidden;
+     max-height: 0;
+     top: 100%;
+     background-color: rgb(55, 55, 55);
+     left: 0;
+ }
+ 
+ .sous-menu-2 > a {
+     font-size: 10px;
+     height: 50%;
+     padding-left: 5px;
+     display: flex;
+     color: rgb(199, 213, 224);
+     background-color: rgb(55, 55, 55);
+     padding-bottom: 5px;
+ }
+
+ .sous-menu-2 > a:hover {
+    color: white;
+}
+
+@keyframes appartionsousmenu{
+    100% {
+        max-height: 50em;
+        border: 1px solid black;
+    box-shadow: 1px 1px 1px 1px solid rgba(0,0,0,0.3);
+    }
+}
+
+.menu-deroulant:hover > .sous-menu-2 {
+    animation: appartionsousmenu 0s forwards;
+}
+
+
+/* sous menu 3 */
+.hr-3 {
+    width: 200px;
+    border-top: 0.1px solid rgb(199, 213, 224);
+    border-bottom: rgb(55, 55, 55);
+    border-left: rgb(55, 55, 55);
+    padding-bottom: 3px;
+    opacity: 0.2;
+}
+
+.sous-menu-3 {
+     display: flex;
+     flex-flow: column wrap;
+     align-items: flex-start;
+     position: absolute; 
+     width: 200px;
+     overflow: hidden;
+     max-height: 0;
+     top: 100%;
+     background-color: rgb(55, 55, 55);
+     left: 0;
+ }
+ 
+ .sous-menu-3 > a {
+     font-size: 10px;
+     height: 50%;
+     padding-left: 5px;
+     display: flex;
+     color: rgb(199, 213, 224);
+     background-color: rgb(55, 55, 55);
+     padding-bottom: 5px;
+ }
+
+ .sous-menu-3 > a:hover {
+    color: white;
+}
+
+@keyframes appartionsousmenu{
+    100% {
+        max-height: 50em;
+        border: 1px solid black;
+    box-shadow: 1px 1px 1px 1px solid rgba(0,0,0,0.3);
+    }
+}
+
+.menu-deroulant:hover > .sous-menu-3 {
+    animation: appartionsousmenu 0s forwards;
+}
+
+/* sous menu 4 */
+.hr-4 {
+    width: 250px;
+    border-top: 0.1px solid rgb(199, 213, 224);
+    border-bottom: rgb(55, 55, 55);
+    border-left: rgb(55, 55, 55);
+    padding-bottom: 3px;
+    opacity: 0.2;
+}
+
+.sous-menu-4 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    position: absolute; 
+    width: 250px;
+    overflow: hidden;
+    max-height: 0;
+    top: 100%;
+    background-color: rgb(55, 55, 55);
+    left: 0;
+}
+
+.sous-menu-4 > a {
+    font-size: 10px;
+    height: 50%;
+    padding-left: 5px;
+    display: flex;
+    color: rgb(199, 213, 224);
+    background-color: rgb(55, 55, 55);
+    padding-bottom: 5px;
+}
+
+.sous-menu-4 > a:hover {
+   color: white;
+}
+
+@keyframes appartionsousmenu{
+   100% {
+       max-height: 50em;
+       border: 1px solid black;
+   box-shadow: 1px 1px 1px 1px solid rgba(0,0,0,0.3);
+   }
+}
+
+.menu-deroulant:hover > .sous-menu-4 {
+   animation: appartionsousmenu 0s forwards;
+}
+
+/* sous menu 5 */
+.hr-5 {
+    width: 220px;
+    border-top: 0.1px solid rgb(199, 213, 224);
+    border-bottom: rgb(55, 55, 55);
+    border-left: rgb(55, 55, 55);
+    padding-bottom: 3px;
+    opacity: 0.2;
+}
+
+.sous-menu-5 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    position: absolute; 
+    width: 220px;
+    overflow: hidden; 
+    max-height: 0; 
+    top: 100%;
+    background-color: rgb(55, 55, 55);
+    opacity: 1;
+    left: 0;
+}
+
+.sous-menu-5 > a {
+    font-size: 10px;
+    height: 50%;
+    padding-left: 5px;
+    display: flex;
+    color: rgb(199, 213, 224);
+    background-color: rgb(55, 55, 55);
+    padding-bottom: 5px;
+}
+
+.sous-menu-5 > a:hover {
+   color: white;
+}
+
+@keyframes appartionsousmenu{
+   100% {
+       max-height: 50em;
+       border: 1px solid black;
+   box-shadow: 1px 1px 1px 1px solid rgba(0,0,0,0.3);
+   }
+}
+
+.menu-deroulant:hover > .sous-menu-5 {
+   animation: appartionsousmenu 0s forwards;
+}
+
+/* nav bar end */
+
+.menu-deroulant-2 {
+    display: flex;
+    height: 15px;
+    margin-right: 8px;
+    padding-bottom: 10px;
+}
+
+
+/* sous menu 6 */
+.hr-5 {
+    width: 260px;
+    border-top: 0.1px solid rgb(199, 213, 224);
+    border-bottom: rgb(55, 55, 55);
+    border-left: rgb(55, 55, 55);
+    border-right: rgb(55, 55, 55);
+    padding-bottom: 3px;
+    opacity: 0.2;
+}
+
+.sous-menu-6 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    position: absolute; 
+    width: 260px;
+    overflow: hidden; 
+    max-height: 0;
+    background-color: rgb(55, 55, 55);
+    opacity: 1;
+    top: 100%;
+    right: 0;
+    justify-content: center;
+}
+
+
+.sous-menu-6 > a {
+    text-decoration: none;
+    font-size: 10px;
+    height: 50%;
+    padding-left: 5px;
+    display: flex;
+    color: rgb(199, 213, 224);
+    background-color: rgb(55, 55, 55);
+    margin-top: 5px;
+}
+
+.sous-menu-6 > a:hover {
+   color: white;
+}
+
+@keyframes appartionsousmenu{
+   100% {
+       max-height: 50em;
+       border: 1px solid black;
+   box-shadow: 1px 1px 1px 1px solid rgba(0,0,0,0.3);
+   }
+}
+
+.menu-deroulant-2:hover > .sous-menu-6 {
+   animation: appartionsousmenu 0s forwards
+}
+
+.ul-2 {
+    display: flex;
+    margin: 10px 15px 0 10px;
+    height: 50px;    
+}
+
+.comment {
+    width: 35px;
+    height: 25px;
+}
+
+/* sous menu 7 */
+
+.sous-menu-7 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    position: absolute; 
+    width: 220px;
+    overflow: hidden; 
+    max-height: 0;
+    background-color: rgb(55, 55, 55);
+    opacity: 1;
+    top: 100%;
+    right: 0;
+    justify-content: center;
+}
+
+
+.sous-menu-7 > a {
+    text-decoration: none;
+    font-size: 10px;
+    height: 50%;
+    padding-left: 5px;
+    display: flex;
+    color: rgb(199, 213, 224);
+    background-color: rgb(55, 55, 55);
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.sous-menu-7 > a:hover {
+   color: white;
+}
+
+@keyframes appartionsousmenu{
+   100% {
+       max-height: 50em;
+       border: 1px solid black;
+   box-shadow: 1px 1px 1px 1px solid rgba(0,0,0,0.3);
+   }
+}
+
+.menu-deroulant-2:hover > .sous-menu-7 {
+   animation: appartionsousmenu 0s forwards
+}

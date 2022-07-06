@@ -1,0 +1,21 @@
+:root{
+    --hauteur-menu: 40px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+.all-in-one {
+    position: sticky;
+}
+
+body {
+    background-image: url(img/background.jpg);
+}
+
+
+
+

@@ -1,0 +1,88 @@
+.cont-2 {
+    display: flex;
+    margin: 0px 30px 0 30px;
+    justify-content: flex-end;
+}
+
+.lds {
+    display: flex;
+    background-color: rgb(176,224,230);
+    box-shadow: 1px 1px 5px 2px black;
+}
+
+.lds > a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    padding: 1px 25px;
+    
+}
+
+.lds:hover {
+    background-color: white;
+}
+
+.lds > a:hover {
+    color: black;
+}
+
+.center-all {
+    height: 500px;
+   /* background-color: black; */
+    margin: 10px 350px 0 350px;
+}
+
+/* NAV BAR AVEC SEARCH BAR */
+
+.cont-3 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: rgb(30,144,255);
+    margin: 3px 30px 0 30px;
+    height: 35px;
+    align-items: center;
+}
+
+.cont-3 > div > a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.pp-1 {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+.cont-3 .conta-6 button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px; 
+    background: rgb(70,130,180);
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    background: rgb(70,130,180);
+}
+
+.search-style {
+    background: rgb(70,130,180);
+    color: black;
+}
+
+.cont-3 input[type=text] {
+    padding: 6px;
+    color: black;
+  font-size: 8px;
+  
+  
+}
